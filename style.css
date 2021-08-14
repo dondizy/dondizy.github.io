@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand");
+@import url("https://fonts.googleapis.com/css?family=Tinos");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1c1c1a;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pencil-background {
+  /*   background-image: url("https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3000&q=80"); */
+
+  background-image: url("https://images.unsplash.com/photo-1510936111840-65e151ad71bb?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODkxMjIwNw&ixlib=rb-1.2.1&q=85");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sky-background {
+  background-image: url("https://images.unsplash.com/photo-1509978778156-518eea30166b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3079&q=80");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  /*   filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card-container {
+  color: white;
+  height: 550px;
+  width: 550px;
+  border: thin solid grey;
+  padding: 16px;
+  margin: auto;
+}
+
+.card-header {
+  text-transform: uppercase;
+}
+
+.lyrics {
+  font-size: 22px;
+  font-family: "Caveat";
+}
+
+.lyrics p {
+  margin: 18px 0px;
+}
+
+.track-info {
+  padding-top: 26px;
+  /*   font-family: "Tinos"; */
+  font-family: Raleway, sans-serif;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.footer {
+  font-family: "Patrick Hand";
+  font-size: 24px;
+}
